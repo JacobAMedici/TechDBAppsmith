@@ -1,8 +1,16 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Login",
       "isDefault": true
+    },
+    {
+      "id": "Register",
+      "isDefault": false
+    },
+    {
+      "id": "Home",
+      "isDefault": false
     }
   ],
   "viewMode": false,
