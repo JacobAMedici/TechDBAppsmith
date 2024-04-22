@@ -27,7 +27,7 @@
   "color": "#FFDEDE",
   "icon": "alien",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
     "type": "DESKTOP"
