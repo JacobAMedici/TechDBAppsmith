@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Search_Articles_By_Title",
+    "name": "Peripherals_Tables",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/articles/1"
+        "url": "web:4000/peripherals/1"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Articles",
+    "pageId": "Peripherals",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -32,8 +32,8 @@
       "body": "",
       "bodyFormData": [
         {
-          "key": "title",
-          "value": "{{Search_Articles.text}}"
+          "key": "peripheralType",
+          "value": "{{Peripheral_Type.selectedOptionValue}}"
         }
       ],
       "httpMethod": "POST",
@@ -58,15 +58,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Search_Articles.text"
+      "Peripheral_Type.selectedOptionValue"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-22T20:21:00Z"
+    "createdAt": "2024-04-22T22:14:13Z"
   },
-  "id": "Articles_Search_Articles_By_Title",
+  "id": "Peripherals_Peripherals_Tables",
   "deleted": false,
-  "gitSyncId": "66269ec568b7c03a9a691e36_6626c6ac34747c38010ebeab"
+  "gitSyncId": "66269ec568b7c03a9a691e36_6626e13534747c38010ebef1"
 }

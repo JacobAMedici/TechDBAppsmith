@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Articles",
-    "slug": "articles",
+    "name": "Peripherals",
+    "slug": "peripherals",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 520,
           "containerStyle": "none",
           "snapRows": 56,
           "parentRowSpace": 1,
@@ -28,12 +28,12 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Articles_Search_Articles_By_Title",
-              "name": "Search_Articles_By_Title",
+              "id": "Peripherals_Peripherals_Tables",
+              "name": "Peripherals_Tables",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "Search_Articles.text"
+                "Peripheral_Type.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -41,7 +41,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Articles",
+        "id": "Peripherals",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -52,5 +52,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "66269ec568b7c03a9a691e36_6626c44634747c38010ebea8"
+  "gitSyncId": "66269ec568b7c03a9a691e36_6626dc7a34747c38010ebeec"
 }

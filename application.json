@@ -29,11 +29,19 @@
       "isDefault": false
     },
     {
+      "id": "Articles",
+      "isDefault": false
+    },
+    {
+      "id": "Make Post",
+      "isDefault": false
+    },
+    {
       "id": "Delete",
       "isDefault": false
     },
     {
-      "id": "Articles",
+      "id": "Peripherals",
       "isDefault": false
     }
   ],

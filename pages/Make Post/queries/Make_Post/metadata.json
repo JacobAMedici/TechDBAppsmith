@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Search_Articles_By_Title",
+    "name": "Make_Post",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/articles/1"
+        "url": "web:4000/articles/1/write"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Articles",
+    "pageId": "Make Post",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -33,7 +33,11 @@
       "bodyFormData": [
         {
           "key": "title",
-          "value": "{{Search_Articles.text}}"
+          "value": "{{Title.text}}"
+        },
+        {
+          "key": "contents",
+          "value": "{{Contents.text}}"
         }
       ],
       "httpMethod": "POST",
@@ -48,25 +52,29 @@
         "apiContentType": "application/x-www-form-urlencoded"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "bodyFormData[0].value"
+      },
+      {
+        "key": "bodyFormData[1].value"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Search_Articles.text"
+      "Contents.text",
+      "Title.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-22T20:21:00Z"
+    "createdAt": "2024-04-22T21:34:17Z"
   },
-  "id": "Articles_Search_Articles_By_Title",
+  "id": "Make Post_Make_Post",
   "deleted": false,
-  "gitSyncId": "66269ec568b7c03a9a691e36_6626c6ac34747c38010ebeab"
+  "gitSyncId": "66269ec568b7c03a9a691e36_6626d7d934747c38010ebee9"
 }
