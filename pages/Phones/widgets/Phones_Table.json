@@ -512,7 +512,7 @@
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "xbi39ku08w",
     "minWidth": 450,
-    "tableData": "{{phonesGet.data}}",
+    "tableData": "{{Get_Phones.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",

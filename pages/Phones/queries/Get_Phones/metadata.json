@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "phonesGet",
+    "name": "Get_Phones",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -55,7 +55,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-22T17:38:29Z"
   },
-  "id": "Phones_phonesGet",
+  "id": "Phones_Get_Phones",
   "deleted": false,
   "gitSyncId": "66269ec568b7c03a9a691e36_6626a0954fe7da7a9f759895"
 }
