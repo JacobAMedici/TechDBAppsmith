@@ -45,6 +45,10 @@
       "isDefault": false
     },
     {
+      "id": "Delete Article",
+      "isDefault": false
+    },
+    {
       "id": "Peripherals",
       "isDefault": false
     },
