@@ -1,8 +1,8 @@
 export default {
 	// For full transparency, this code was created with the help of ChatGPT as neither I, nor my partner
 	// know JavaScript and I believe that this falls clear within the realm of acceptable given the nature of this project
-	login: (username, permissions) => {
-		storeValue('userID', username);
+	login: (userID, permissions) => {
+		storeValue('userID', userID);
 		storeValue('userPermissions', permissions);
 		return true;
 	},

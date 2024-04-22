@@ -51,6 +51,10 @@
         {
           "key": "lastname",
           "value": "{{lastname}}"
+        },
+        {
+          "key": "confrimation",
+          "value": "{{confirmation}}"
         }
       ],
       "httpMethod": "POST",
@@ -81,12 +85,16 @@
       },
       {
         "key": "bodyFormData[4].value"
+      },
+      {
+        "key": "bodyFormData[5].value"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "confirmation",
       "email",
       "firstname",
       "lastname",
