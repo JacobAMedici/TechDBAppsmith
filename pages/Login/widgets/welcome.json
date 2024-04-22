@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 14,
-    "bottomRow": 21,
+    "topRow": 15,
+    "bottomRow": 22,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 25,
+    "leftColumn": 17,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Welcome to TechDB",
     "key": "8eh7w693w1",
     "isDeprecated": false,
-    "rightColumn": 57,
+    "rightColumn": 49,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -50,11 +50,11 @@
     "isLoading": false,
     "mobileTopRow": 14,
     "responsiveBehavior": "fill",
-    "originalTopRow": 14,
+    "originalTopRow": 15,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 21,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 21,
+    "originalBottomRow": 22,
     "fontSize": "3rem",
     "minDynamicHeight": 4
 }

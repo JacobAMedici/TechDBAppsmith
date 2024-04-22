@@ -34,27 +34,27 @@
       "bodyFormData": [
         {
           "key": "email",
-          "value": "{{email}}"
+          "value": "{{email.text}}"
         },
         {
           "key": "username",
-          "value": "{{username}}"
+          "value": "{{username.text}}"
         },
         {
           "key": "password",
-          "value": "{{password}}"
+          "value": "{{password.text}}"
         },
         {
           "key": "firstname",
-          "value": "{{firstname}}"
+          "value": "{{firstname.text}}"
         },
         {
           "key": "lastname",
-          "value": "{{lastname}}"
+          "value": "{{lastname.text}}"
         },
         {
-          "key": "confrimation",
-          "value": "{{confirmation}}"
+          "key": "confirmation",
+          "value": "{{confirmation.text}}"
         }
       ],
       "httpMethod": "POST",
@@ -94,12 +94,12 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "confirmation",
-      "email",
-      "firstname",
-      "lastname",
-      "password",
-      "username"
+      "confirmation.text",
+      "email.text",
+      "firstname.text",
+      "lastname.text",
+      "password.text",
+      "username.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
