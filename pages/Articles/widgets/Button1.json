@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 7,
     "widgetName": "Button1",
-    "onClick": "{{Search_Articles_By_Title.run();\nshowModal('Modal1');}}",
+    "onClick": "{{Search_Articles_By_Title.run();}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
