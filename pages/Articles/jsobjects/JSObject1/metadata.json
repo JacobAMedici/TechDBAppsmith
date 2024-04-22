@@ -6,19 +6,10 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "variables": [
-      {
-        "name": "myVar1",
-        "value": "[]"
-      },
-      {
-        "name": "myVar2",
-        "value": "{}"
-      }
-    ],
+    "variables": [],
     "userPermissions": []
   },
   "id": "Articles_JSObject1",
   "deleted": false,
-  "gitSyncId": "66269ec568b7c03a9a691e36_6626cb9034747c38010ebeb7"
+  "gitSyncId": "66269ec568b7c03a9a691e36_6626cfd234747c38010ebed4"
 }

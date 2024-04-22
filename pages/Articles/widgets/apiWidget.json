@@ -3,7 +3,7 @@
     "needsErrorInfo": false,
     "boxShadow": "none",
     "mobileBottomRow": 7,
-    "widgetName": "Button1",
+    "widgetName": "apiWidget",
     "onClick": "{{Search_Articles_By_Title.run();}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",

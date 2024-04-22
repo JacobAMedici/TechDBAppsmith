@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun2",
-    "fullyQualifiedName": "JSObject1.myFun2",
+    "name": "handleApiResponse",
+    "fullyQualifiedName": "JSObject1.handleApiResponse",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -16,14 +16,13 @@
     "pageId": "Articles",
     "collectionId": "Articles_JSObject1",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
       "jsArguments": []
     },
     "executeOnLoad": false,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -36,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-22T20:41:52Z"
+    "createdAt": "2024-04-22T21:04:00Z"
   },
-  "id": "Articles_JSObject1.myFun2",
+  "id": "Articles_JSObject1.handleApiResponse",
   "deleted": false,
-  "gitSyncId": "66269ec568b7c03a9a691e36_6626cb9034747c38010ebeb4"
+  "gitSyncId": "66269ec568b7c03a9a691e36_6626d0c034747c38010ebeda"
 }
