@@ -39,6 +39,10 @@
     {
       "id": "Delete",
       "isDefault": false
+    },
+    {
+      "id": "Peripherals",
+      "isDefault": false
     }
   ],
   "viewMode": false,
