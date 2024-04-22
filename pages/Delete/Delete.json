@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Home",
-    "slug": "home",
+    "name": "Delete",
+    "slug": "delete",
     "layouts": [
       {
         "viewMode": false,
@@ -13,22 +13,21 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 790,
+          "bottomRow": 570,
           "containerStyle": "none",
-          "snapRows": 78,
+          "snapRows": 56,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 800,
+          "minHeight": 580,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
         "layoutOnLoadActions": [],
-        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Home",
+        "id": "Delete",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +38,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6625abc73569c3250f570df0_66269e56f5697e51dad2c234"
+  "gitSyncId": "66269ec568b7c03a9a691e36_6626a8114fe7da7a9f75989b"
 }
