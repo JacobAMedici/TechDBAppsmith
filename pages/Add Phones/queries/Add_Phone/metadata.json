@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Phones",
+    "pageId": "Add Phones",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -33,51 +33,51 @@
       "bodyFormData": [
         {
           "key": "length",
-          "value": ""
+          "value": "{{Length.text}}"
         },
         {
           "key": "depth",
-          "value": ""
+          "value": "{{Depth.text}}"
         },
         {
           "key": "thickness",
-          "value": ""
+          "value": "{{Thickness.text}}"
         },
         {
           "key": "horizontalResolution",
-          "value": ""
+          "value": "{{Horizontal_Resolution.text}}"
         },
         {
           "key": "veritcalResolution",
-          "value": ""
+          "value": "{{Vertical_Resolution.text}}"
         },
         {
           "key": "ram",
-          "value": ""
+          "value": "{{Ram.text}}"
         },
         {
           "key": "storage",
-          "value": ""
+          "value": "{{Storage.text}}"
         },
         {
           "key": "refreshRate",
-          "value": ""
+          "value": "{{Refresh_Rate.text}}"
         },
         {
           "key": "batteryLength",
-          "value": ""
+          "value": "{{Battery_Length.text}}"
         },
         {
           "key": "weight",
-          "value": ""
+          "value": "{{Weight.text}}"
         },
         {
           "key": "interface",
-          "value": ""
+          "value": "{{Interface.text}}"
         },
         {
           "key": "phoneName",
-          "value": ""
+          "value": "{{Phone_Name.text}}"
         }
       ],
       "httpMethod": "POST",
@@ -93,18 +93,68 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "bodyFormData[0].value"
+      },
+      {
+        "key": "bodyFormData[1].value"
+      },
+      {
+        "key": "bodyFormData[2].value"
+      },
+      {
+        "key": "bodyFormData[3].value"
+      },
+      {
+        "key": "bodyFormData[4].value"
+      },
+      {
+        "key": "bodyFormData[5].value"
+      },
+      {
+        "key": "bodyFormData[6].value"
+      },
+      {
+        "key": "bodyFormData[7].value"
+      },
+      {
+        "key": "bodyFormData[8].value"
+      },
+      {
+        "key": "bodyFormData[9].value"
+      },
+      {
+        "key": "bodyFormData[10].value"
+      },
+      {
+        "key": "bodyFormData[11].value"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "Battery_Length.text",
+      "Depth.text",
+      "Horizontal_Resolution.text",
+      "Interface.text",
+      "Length.text",
+      "Phone_Name.text",
+      "Ram.text",
+      "Refresh_Rate.text",
+      "Storage.text",
+      "Thickness.text",
+      "Vertical_Resolution.text",
+      "Weight.text"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-22T18:38:01Z"
+    "createdAt": "2024-04-22T19:00:32Z"
   },
-  "id": "Phones_Add_Phone",
+  "id": "Add Phones_Add_Phone",
   "deleted": false,
-  "gitSyncId": "66269ec568b7c03a9a691e36_6626ae894fe7da7a9f7598a0"
+  "gitSyncId": "66269ec568b7c03a9a691e36_6626b3d034747c38010ebe8b"
 }
