@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 13,
-    "bottomRow": 18,
+    "bottomRow": 20,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 15.90625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 18,
+    "leftColumn": 15,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Create Your Account",
     "key": "svvzs5d9fg",
     "isDeprecated": false,
-    "rightColumn": 40,
+    "rightColumn": 51,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -54,7 +54,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 21,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 18,
-    "fontSize": "1.875rem",
+    "originalBottomRow": 20,
+    "fontSize": "3rem",
     "minDynamicHeight": 4
 }
