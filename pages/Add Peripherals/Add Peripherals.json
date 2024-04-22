@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Delete",
-    "slug": "delete",
+    "name": "Add Peripherals",
+    "slug": "add-peripherals",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 570,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 56,
           "parentRowSpace": 1,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Delete",
+        "id": "Add Peripherals",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -36,8 +36,8 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": false
+    "isHidden": true
   },
   "deleted": false,
-  "gitSyncId": "66269ec568b7c03a9a691e36_6626a8114fe7da7a9f75989b"
+  "gitSyncId": "66269ec568b7c03a9a691e36_6626e7ec34747c38010ebf28"
 }

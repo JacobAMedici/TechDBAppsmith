@@ -75,7 +75,7 @@
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 39,
-    "widgetName": "Table1",
+    "widgetName": "Laptops_Table",
     "defaultPageSize": 0,
     "columnOrder": [
         "laptopID",
@@ -107,7 +107,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "horizontalResolution": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"horizontalResolution\"]))}}",
+            "computedValue": "{{Laptops_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"horizontalResolution\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "horizontalResolution",
@@ -138,7 +138,7 @@
             "verticalAlignment": "CENTER"
         },
         "laptopID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"laptopID\"]))}}",
+            "computedValue": "{{Laptops_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"laptopID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "laptopID",
@@ -169,7 +169,7 @@
             "verticalAlignment": "CENTER"
         },
         "thickness": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"thickness\"]))}}",
+            "computedValue": "{{Laptops_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"thickness\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "thickness",
@@ -200,7 +200,7 @@
             "verticalAlignment": "CENTER"
         },
         "backlitKeyboard": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"backlitKeyboard\"]))}}",
+            "computedValue": "{{Laptops_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"backlitKeyboard\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "backlitKeyboard",
@@ -231,7 +231,7 @@
             "verticalAlignment": "CENTER"
         },
         "verticalResolution": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"verticalResolution\"]))}}",
+            "computedValue": "{{Laptops_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"verticalResolution\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "verticalResolution",
@@ -262,7 +262,7 @@
             "verticalAlignment": "CENTER"
         },
         "length": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"length\"]))}}",
+            "computedValue": "{{Laptops_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"length\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "length",
@@ -293,7 +293,7 @@
             "verticalAlignment": "CENTER"
         },
         "CPU": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CPU\"]))}}",
+            "computedValue": "{{Laptops_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CPU\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "CPU",
@@ -324,7 +324,7 @@
             "verticalAlignment": "CENTER"
         },
         "weight": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"weight\"]))}}",
+            "computedValue": "{{Laptops_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"weight\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "weight",
@@ -355,7 +355,7 @@
             "verticalAlignment": "CENTER"
         },
         "storage": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"storage\"]))}}",
+            "computedValue": "{{Laptops_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"storage\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "storage",
@@ -386,7 +386,7 @@
             "verticalAlignment": "CENTER"
         },
         "GPU": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"GPU\"]))}}",
+            "computedValue": "{{Laptops_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"GPU\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "GPU",
@@ -417,7 +417,7 @@
             "verticalAlignment": "CENTER"
         },
         "operatingSystem": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"operatingSystem\"]))}}",
+            "computedValue": "{{Laptops_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"operatingSystem\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "operatingSystem",
@@ -448,7 +448,7 @@
             "verticalAlignment": "CENTER"
         },
         "depth": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"depth\"]))}}",
+            "computedValue": "{{Laptops_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"depth\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "depth",
@@ -479,7 +479,7 @@
             "verticalAlignment": "CENTER"
         },
         "refreshRate": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"refreshRate\"]))}}",
+            "computedValue": "{{Laptops_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"refreshRate\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "refreshRate",
@@ -510,7 +510,7 @@
             "verticalAlignment": "CENTER"
         },
         "batterySize": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"batterySize\"]))}}",
+            "computedValue": "{{Laptops_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"batterySize\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "batterySize",
@@ -541,7 +541,7 @@
             "verticalAlignment": "CENTER"
         },
         "laptopName": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"laptopName\"]))}}",
+            "computedValue": "{{Laptops_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"laptopName\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "laptopName",
@@ -572,7 +572,7 @@
             "verticalAlignment": "CENTER"
         },
         "ram": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ram\"]))}}",
+            "computedValue": "{{Laptops_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ram\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "ram",
