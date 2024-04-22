@@ -21,11 +21,19 @@
       "isDefault": false
     },
     {
+      "id": "Delete Phone",
+      "isDefault": false
+    },
+    {
       "id": "Laptops",
       "isDefault": false
     },
     {
       "id": "Add Laptops",
+      "isDefault": false
+    },
+    {
+      "id": "Delete Laptop",
       "isDefault": false
     },
     {
@@ -37,11 +45,11 @@
       "isDefault": false
     },
     {
-      "id": "Delete",
+      "id": "Peripherals",
       "isDefault": false
     },
     {
-      "id": "Peripherals",
+      "id": "Add Peripherals",
       "isDefault": false
     }
   ],
@@ -64,10 +72,10 @@
   "color": "#FFDEDE",
   "icon": "alien",
   "unpublishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "publishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
