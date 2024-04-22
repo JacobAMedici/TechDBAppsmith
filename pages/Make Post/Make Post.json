@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Articles",
-    "slug": "articles",
+    "name": "Make Post",
+    "slug": "make-post",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 600,
           "containerStyle": "none",
           "snapRows": 56,
           "parentRowSpace": 1,
@@ -25,23 +25,10 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Articles_Search_Articles_By_Title",
-              "name": "Search_Articles_By_Title",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Search_Articles.text"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Articles",
+        "id": "Make Post",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -49,8 +36,8 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": false
+    "isHidden": true
   },
   "deleted": false,
-  "gitSyncId": "66269ec568b7c03a9a691e36_6626c44634747c38010ebea8"
+  "gitSyncId": "66269ec568b7c03a9a691e36_6626d5ca34747c38010ebee7"
 }

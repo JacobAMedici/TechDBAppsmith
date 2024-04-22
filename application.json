@@ -29,11 +29,15 @@
       "isDefault": false
     },
     {
-      "id": "Delete",
+      "id": "Articles",
       "isDefault": false
     },
     {
-      "id": "Articles",
+      "id": "Make Post",
+      "isDefault": false
+    },
+    {
+      "id": "Delete",
       "isDefault": false
     }
   ],
