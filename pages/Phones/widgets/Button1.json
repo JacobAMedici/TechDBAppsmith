@@ -3,7 +3,7 @@
     "needsErrorInfo": false,
     "boxShadow": "none",
     "mobileBottomRow": 10,
-    "widgetName": "addPhoneButton",
+    "widgetName": "Button1",
     "onClick": "",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
