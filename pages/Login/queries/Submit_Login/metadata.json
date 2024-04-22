@@ -34,11 +34,11 @@
       "bodyFormData": [
         {
           "key": "username",
-          "value": "AlecBorer"
+          "value": "{{username.text}}"
         },
         {
           "key": "password",
-          "value": "admin"
+          "value": "{{password.text}}"
         }
       ],
       "httpMethod": "POST",
@@ -54,11 +54,21 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "bodyFormData[0].value"
+      },
+      {
+        "key": "bodyFormData[1].value"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "password.text",
+      "username.text"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],

@@ -1,13 +1,13 @@
 {
     "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
     "iconSVG": "/static/media/icon.1d5dafb1bceb767ecba0541ed445bd6c.svg",
-    "labelText": "Sign in as a...",
-    "topRow": 26,
+    "labelText": "After creating sign in as a...",
+    "topRow": 20,
     "labelWidth": 5,
     "type": "SINGLE_SELECT_TREE_WIDGET",
     "defaultOptionValue": "user",
     "animateLoading": true,
-    "leftColumn": 43,
+    "leftColumn": 42,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -33,7 +33,7 @@
         "dropdown",
         "singleselecttree"
     ],
-    "bottomRow": 33,
+    "bottomRow": 27,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 64,
@@ -43,9 +43,9 @@
     "key": "qhdtt1ptr5",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 61,
     "thumbnailSVG": "/static/media/thumbnail.bc59917a102b6adb6de852484370cc41.svg",
-    "widgetId": "o0fkfsnwui",
+    "widgetId": "116h93aicb",
     "minWidth": 450,
     "parentId": "0",
     "labelAlignment": "left",

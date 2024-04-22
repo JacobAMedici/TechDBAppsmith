@@ -22,7 +22,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": [
         {
-          "name": "username"
+          "name": "userID"
         },
         {
           "name": "permissions"
