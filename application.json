@@ -17,10 +17,6 @@
       "isDefault": false
     },
     {
-      "id": "Delete",
-      "isDefault": false
-    },
-    {
       "id": "Add Phones",
       "isDefault": false
     },
@@ -30,6 +26,14 @@
     },
     {
       "id": "Add Laptops",
+      "isDefault": false
+    },
+    {
+      "id": "Delete",
+      "isDefault": false
+    },
+    {
+      "id": "Articles",
       "isDefault": false
     }
   ],
@@ -55,7 +59,7 @@
     "type": "DESKTOP"
   },
   "publishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
