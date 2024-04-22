@@ -5,13 +5,13 @@
     "widgetName": "registerPrompt",
     "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
     "displayName": "Text",
-    "topRow": 60,
+    "topRow": 57,
     "searchTags": [
         "typography",
         "paragraph",
         "label"
     ],
-    "bottomRow": 64,
+    "bottomRow": 61,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -51,11 +51,11 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 55,
     "responsiveBehavior": "fill",
-    "originalTopRow": 60,
+    "originalTopRow": 57,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 23,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 64,
+    "originalBottomRow": 61,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }

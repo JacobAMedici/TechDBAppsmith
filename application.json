@@ -2,7 +2,7 @@
   "pages": [
     {
       "id": "Login",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Register",
@@ -10,7 +10,7 @@
     },
     {
       "id": "Home",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Phones",
@@ -59,7 +59,7 @@
     "type": "DESKTOP"
   },
   "publishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
