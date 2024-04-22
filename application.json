@@ -23,6 +23,14 @@
     {
       "id": "Add Phones",
       "isDefault": false
+    },
+    {
+      "id": "Laptops",
+      "isDefault": false
+    },
+    {
+      "id": "Add Laptops",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -44,7 +52,7 @@
   "color": "#FFDEDE",
   "icon": "alien",
   "unpublishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "publishedAppLayout": {
     "type": "FLUID"
