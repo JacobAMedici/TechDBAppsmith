@@ -1,7 +1,8 @@
 {
   "unpublishedPage": {
-    "name": "Phones",
-    "slug": "phones",
+    "name": "Add Phones",
+    "slug": "add-phones",
+    "customSlug": "",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +14,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 520,
+          "bottomRow": 880,
           "containerStyle": "none",
           "snapRows": 56,
           "parentRowSpace": 1,
@@ -25,21 +26,10 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Phones_Get_Phones",
-              "name": "Get_Phones",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Phones",
+        "id": "Add Phones",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -47,8 +37,8 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": false
+    "isHidden": true
   },
   "deleted": false,
-  "gitSyncId": "66269ec568b7c03a9a691e36_6626a0454fe7da7a9f759893"
+  "gitSyncId": "66269ec568b7c03a9a691e36_6626b29d34747c38010ebe89"
 }

@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Phones",
-    "slug": "phones",
+    "name": "Laptops",
+    "slug": "laptops",
     "layouts": [
       {
         "viewMode": false,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Phones_Get_Phones",
-              "name": "Get_Phones",
+              "id": "Laptops_Get_Laptops",
+              "name": "Get_Laptops",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -39,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Phones",
+        "id": "Laptops",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "66269ec568b7c03a9a691e36_6626a0454fe7da7a9f759893"
+  "gitSyncId": "66269ec568b7c03a9a691e36_6626ba3e34747c38010ebe98"
 }
