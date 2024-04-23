@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "loginTools",
+    "pageId": "Phones",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Phones_loginTools",
+  "deleted": false,
+  "gitSyncId": "6625abc73569c3250f570df0_66272069bcded27c63f17947"
+}

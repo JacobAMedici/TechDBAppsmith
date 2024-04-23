@@ -1,7 +1,7 @@
 {
     "resetFormOnClick": false,
     "needsErrorInfo": false,
-    "boxShadow": "none",
+    "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
     "mobileBottomRow": 49,
     "widgetName": "login",
     "onClick": "{{Submit_Login.run().then(() => {\n  loginTools.storeUserInfo(Submit_Login.data.userID, permissions.selectedOptionValue);\n  navigateTo('Home', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert(Submit_Login.data.message, 'error');\n});}}",
@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 13,
+    "leftColumn": 24,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -30,7 +30,7 @@
     "isDisabled": false,
     "key": "tbhblix23h",
     "isDeprecated": false,
-    "rightColumn": 29,
+    "rightColumn": 40,
     "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
     "isDefaultClickDisabled": true,
     "widgetId": "b6c3qx1deo",

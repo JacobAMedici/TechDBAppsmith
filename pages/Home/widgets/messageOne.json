@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 26,
-    "bottomRow": 38,
+    "bottomRow": 34,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 15.90625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 15,
+    "leftColumn": 14,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -28,10 +28,10 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Feel free to look around, but if you want to favorite items or post create an account today!",
+    "text": "Feel free to look around as a guest or create an account to have your own profile!",
     "key": "dbeti7g2nb",
     "isDeprecated": false,
-    "rightColumn": 46,
+    "rightColumn": 47,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -54,7 +54,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 22,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 38,
+    "originalBottomRow": 34,
     "fontSize": "1.875rem",
     "minDynamicHeight": 4
 }

@@ -52,7 +52,7 @@
     "thumbnailSVG": "/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
     "widgetId": "wrvlqp4oed",
     "minWidth": 450,
-    "label": "Search Article Titles",
+    "label": "Find Article to Edit",
     "parentId": "0",
     "labelAlignment": "left",
     "renderMode": "CANVAS",

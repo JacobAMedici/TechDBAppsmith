@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 510,
+          "bottomRow": 520,
           "containerStyle": "none",
           "snapRows": 78,
           "parentRowSpace": 1,
@@ -25,7 +25,21 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Home_GiveUserID.ensureDefaults",
+              "name": "GiveUserID.ensureDefaults",
+              "collectionId": "Home_GiveUserID",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  const userID = appsmith.store.userID || 3;\n  storeValue('userID', userID);\n  const permissions = appsmith.store.userPermissions || 'user';\n  storeValue('userPermissions', permissions);\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Home",

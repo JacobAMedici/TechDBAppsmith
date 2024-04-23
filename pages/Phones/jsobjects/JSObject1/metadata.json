@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Phones",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Phones_JSObject1",
+  "deleted": false,
+  "gitSyncId": "6625abc73569c3250f570df0_66272046bcded27c63f17933"
+}
