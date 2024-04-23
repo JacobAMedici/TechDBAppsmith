@@ -37,7 +37,7 @@
           "value": "{{Peripheral_Type.selectedOptionValue}}"
         }
       ],
-      "httpMethod": "POST",
+      "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
