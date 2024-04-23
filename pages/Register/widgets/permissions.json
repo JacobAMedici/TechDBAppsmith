@@ -7,7 +7,7 @@
     "type": "SINGLE_SELECT_TREE_WIDGET",
     "defaultOptionValue": "user",
     "animateLoading": true,
-    "leftColumn": 35,
+    "leftColumn": 34,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -43,7 +43,7 @@
     "key": "qhdtt1ptr5",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 54,
+    "rightColumn": 53,
     "thumbnailSVG": "/static/media/thumbnail.bc59917a102b6adb6de852484370cc41.svg",
     "widgetId": "116h93aicb",
     "minWidth": 450,

@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "isAdmin",
-    "fullyQualifiedName": "loginTools.isAdmin",
+    "name": "checkAdmin",
+    "fullyQualifiedName": "loginTools.checkAdmin",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Login",
-    "collectionId": "Login_loginTools",
+    "pageId": "Register",
+    "collectionId": "Register_loginTools",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-22T20:35:56Z"
+    "createdAt": "2024-04-23T02:13:45Z"
   },
-  "id": "Login_loginTools.isAdmin",
+  "id": "Register_loginTools.checkAdmin",
   "deleted": false,
-  "gitSyncId": "6625abc73569c3250f570df0_6626ca2c49e24b3c00108b30"
+  "gitSyncId": "6625abc73569c3250f570df0_66271959a207e62f2a894770"
 }
