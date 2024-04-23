@@ -49,6 +49,10 @@
       "isDefault": false
     },
     {
+      "id": "Edit Article",
+      "isDefault": false
+    },
+    {
       "id": "Peripherals",
       "isDefault": false
     },
