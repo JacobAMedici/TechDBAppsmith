@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Add Peripherals",
-    "slug": "add-peripherals",
+    "name": "Add Keyboard",
+    "slug": "add-keyboard",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Add Peripherals",
+        "id": "Add Keyboard",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +39,5 @@
     "isHidden": true
   },
   "deleted": false,
-  "gitSyncId": "66269ec568b7c03a9a691e36_6626e7ec34747c38010ebf28"
+  "gitSyncId": "66269ec568b7c03a9a691e36_6626fd2834747c38010ebf9c"
 }

@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Laptops",
-    "slug": "laptops",
+    "name": "Add Tablet",
+    "slug": "add-tablet",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 520,
+          "bottomRow": 600,
           "containerStyle": "none",
           "snapRows": 56,
           "parentRowSpace": 1,
@@ -25,23 +25,10 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Laptops_Get_Laptops",
-              "name": "Get_Laptops",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.userID"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Laptops",
+        "id": "Add Tablet",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -49,8 +36,8 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": false
+    "isHidden": true
   },
   "deleted": false,
-  "gitSyncId": "66269ec568b7c03a9a691e36_6626ba3e34747c38010ebe98"
+  "gitSyncId": "66269ec568b7c03a9a691e36_6626e7ec34747c38010ebf28"
 }
