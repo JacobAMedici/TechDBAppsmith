@@ -33,6 +33,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
+                "appsmith.store.userID",
                 "Search_Articles.text"
               ],
               "timeoutInMillisecond": 10000
