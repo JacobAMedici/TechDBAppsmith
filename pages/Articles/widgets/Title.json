@@ -32,7 +32,7 @@
     "text": "{{Search_Articles_By_Title.data.title}}",
     "key": "2staly8dhx",
     "isDeprecated": false,
-    "rightColumn": 48,
+    "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
