@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "Button1onClick",
-    "fullyQualifiedName": "JSObject1.Button1onClick",
+    "name": "checkAdmin",
+    "fullyQualifiedName": "loginTools.checkAdmin",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "Register",
-    "collectionId": "Register_JSObject1",
+    "collectionId": "Register_loginTools",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -23,7 +23,6 @@
       "jsArguments": []
     },
     "executeOnLoad": false,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -36,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-23T00:57:49Z"
+    "createdAt": "2024-04-23T02:13:45Z"
   },
-  "id": "Register_JSObject1.Button1onClick",
+  "id": "Register_loginTools.checkAdmin",
   "deleted": false,
-  "gitSyncId": "6625abc73569c3250f570df0_6627078da207e62f2a894751"
+  "gitSyncId": "6625abc73569c3250f570df0_66271959a207e62f2a894770"
 }
