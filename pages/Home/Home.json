@@ -33,9 +33,7 @@
               "collectionId": "Home_GiveUserID",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
-              "jsonPathKeys": [
-                "() => {\n  const userID = appsmith.store.userID || 3;\n  storeValue('userID', userID);\n  const permissions = appsmith.store.userPermissions || 'user';\n  storeValue('userPermissions', permissions);\n}"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
