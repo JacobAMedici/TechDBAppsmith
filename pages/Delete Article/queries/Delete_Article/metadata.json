@@ -35,7 +35,7 @@
       "bodyFormData": [
         {
           "key": "title",
-          "value": "Cheap headphones cord breaks"
+          "value": "{{Article_Title_to_Delete.text}}"
         }
       ],
       "httpMethod": "DELETE",
@@ -54,12 +54,16 @@
     "dynamicBindingPathList": [
       {
         "key": "path"
+      },
+      {
+        "key": "bodyFormData[0].value"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "Article_Title_to_Delete.text",
       "appsmith.store.userID"
     ],
     "userSetOnLoad": false,
