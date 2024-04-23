@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "logout",
-    "fullyQualifiedName": "loginTools.logout",
+    "name": "checkManufacturer",
+    "fullyQualifiedName": "loginTools.checkManufacturer",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-23T02:10:55Z"
+    "createdAt": "2024-04-23T02:12:07Z"
   },
-  "id": "Login_loginTools.logout",
+  "id": "Login_loginTools.checkManufacturer",
   "deleted": false,
-  "gitSyncId": "6625abc73569c3250f570df0_662718afa207e62f2a89475c"
+  "gitSyncId": "6625abc73569c3250f570df0_662718f7a207e62f2a89475e"
 }

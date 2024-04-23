@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "isManufacturer",
-    "fullyQualifiedName": "loginTools.isManufacturer",
+    "name": "storeUserInfo",
+    "fullyQualifiedName": "loginTools.storeUserInfo",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -20,7 +20,14 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": []
+      "jsArguments": [
+        {
+          "name": "userID"
+        },
+        {
+          "name": "permissions"
+        }
+      ]
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -35,9 +42,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-22T20:36:21Z"
+    "createdAt": "2024-04-23T01:57:25Z"
   },
-  "id": "Login_loginTools.isManufacturer",
+  "id": "Login_loginTools.storeUserInfo",
   "deleted": false,
-  "gitSyncId": "6625abc73569c3250f570df0_6626ca4549e24b3c00108b32"
+  "gitSyncId": "6625abc73569c3250f570df0_66271585a207e62f2a894758"
 }

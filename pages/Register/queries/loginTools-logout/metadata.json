@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "login",
-    "fullyQualifiedName": "loginTools.login",
+    "name": "logout",
+    "fullyQualifiedName": "loginTools.logout",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -20,14 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": [
-        {
-          "name": "username"
-        },
-        {
-          "name": "permissions"
-        }
-      ]
+      "jsArguments": []
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -42,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-22T20:21:00Z"
+    "createdAt": "2024-04-23T02:13:45Z"
   },
-  "id": "Register_loginTools.login",
+  "id": "Register_loginTools.logout",
   "deleted": false,
-  "gitSyncId": "6625abc73569c3250f570df0_6626c6ac49e24b3c00108b2a"
+  "gitSyncId": "6625abc73569c3250f570df0_66271959a207e62f2a894772"
 }

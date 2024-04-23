@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "checkAuth",
-    "fullyQualifiedName": "loginTools.checkAuth",
+    "name": "storeUserInfo",
+    "fullyQualifiedName": "loginTools.storeUserInfo",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,14 +13,21 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Login",
-    "collectionId": "Login_loginTools",
+    "pageId": "Register",
+    "collectionId": "Register_loginTools",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": []
+      "jsArguments": [
+        {
+          "name": "userID"
+        },
+        {
+          "name": "permissions"
+        }
+      ]
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -35,9 +42,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-22T19:29:13Z"
+    "createdAt": "2024-04-23T02:13:45Z"
   },
-  "id": "Login_loginTools.checkAuth",
+  "id": "Register_loginTools.storeUserInfo",
   "deleted": false,
-  "gitSyncId": "6625abc73569c3250f570df0_6626ba89f5697e51dad2c276"
+  "gitSyncId": "6625abc73569c3250f570df0_66271959a207e62f2a894771"
 }
