@@ -2,16 +2,16 @@
     "needsErrorInfo": false,
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "mobileBottomRow": 27,
-    "widgetName": "RichTextEditor1",
+    "widgetName": "Contents_to_Edit",
     "displayName": "Rich Text Editor",
     "iconSVG": "/static/media/icon.06d230b800553d2866ed7f3ec0474e3e.svg",
-    "labelText": "Contents to edit",
+    "labelText": "Contents to Edit",
     "searchTags": [
         "input",
         "rte"
     ],
-    "topRow": 14,
-    "bottomRow": 34,
+    "topRow": 7,
+    "bottomRow": 43,
     "parentRowSpace": 10,
     "labelWidth": 5,
     "type": "RICH_TEXT_EDITOR_WIDGET",
@@ -23,7 +23,8 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
-        {"key": "boxShadow"}
+        {"key": "boxShadow"},
+        {"key": "defaultText"}
     ],
     "labelPosition": "Top",
     "inputType": "html",
@@ -32,7 +33,7 @@
     "key": "fnqbborh1v",
     "isRequired": false,
     "isDeprecated": false,
-    "rightColumn": 24,
+    "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.b19d2640527b6f3fd53fe51eb20774d0.svg",
     "isDefaultClickDisabled": true,
     "dynamicHeight": "FIXED",
@@ -50,6 +51,6 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "defaultText": "",
+    "defaultText": "{{Search_Articles_By_Title.data.contents}}",
     "minDynamicHeight": 4
 }
