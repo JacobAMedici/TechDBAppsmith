@@ -53,7 +53,27 @@
       "isDefault": false
     },
     {
-      "id": "Add Peripherals",
+      "id": "Add Tablet",
+      "isDefault": false
+    },
+    {
+      "id": "Add Mouse",
+      "isDefault": false
+    },
+    {
+      "id": "Add Keyboard",
+      "isDefault": false
+    },
+    {
+      "id": "Add Headphones",
+      "isDefault": false
+    },
+    {
+      "id": "Add Keyboard Switch",
+      "isDefault": false
+    },
+    {
+      "id": "Delete Peripheral",
       "isDefault": false
     }
   ],

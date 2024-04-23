@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Peripherals",
-    "slug": "peripherals",
+    "name": "Add Headphones",
+    "slug": "add-headphones",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 540,
+          "bottomRow": 390,
           "containerStyle": "none",
           "snapRows": 56,
           "parentRowSpace": 1,
@@ -25,23 +25,10 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Peripherals_Peripherals_Tables",
-              "name": "Peripherals_Tables",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Peripheral_Type.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Peripherals",
+        "id": "Add Headphones",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -49,8 +36,8 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": false
+    "isHidden": true
   },
   "deleted": false,
-  "gitSyncId": "66269ec568b7c03a9a691e36_6626dc7a34747c38010ebeec"
+  "gitSyncId": "66269ec568b7c03a9a691e36_6626fd3e34747c38010ebf9f"
 }
