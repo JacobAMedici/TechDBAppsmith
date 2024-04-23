@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "loginTools",
+    "pageId": "Laptops",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Laptops_loginTools",
+  "deleted": false,
+  "gitSyncId": "6625abc73569c3250f570df0_6627206fbcded27c63f17951"
+}

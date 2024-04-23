@@ -4,8 +4,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 10,
     "widgetName": "Add_Phone_Button",
-    "onClick": "{{navigateTo('Add Phones', {}, 'SAME_WINDOW');}}",
+    "onClick": "{{loginTools.checkManufacturer();}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "dynamicPropertyPathList": [],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "searchTags": [

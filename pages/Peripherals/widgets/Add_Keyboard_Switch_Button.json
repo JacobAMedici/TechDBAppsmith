@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 68,
     "widgetName": "Add_Keyboard_Switch_Button",
-    "onClick": "{{navigateTo('Add Keyboard Switch', {}, 'SAME_WINDOW');}}",
+    "onClick": "{{loginTools.checkManufacturer('Keyboard Switch');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
