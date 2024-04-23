@@ -32,7 +32,9 @@
               "name": "Get_Laptops",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.userID"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
