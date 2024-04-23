@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "isManufacturer",
-    "fullyQualifiedName": "loginTools.isManufacturer",
+    "name": "Button1onClick",
+    "fullyQualifiedName": "JSObject1.Button1onClick",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Login",
-    "collectionId": "Login_loginTools",
+    "pageId": "Register",
+    "collectionId": "Register_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -23,6 +23,7 @@
       "jsArguments": []
     },
     "executeOnLoad": false,
+    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -35,9 +36,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-22T20:36:21Z"
+    "createdAt": "2024-04-23T00:57:49Z"
   },
-  "id": "Login_loginTools.isManufacturer",
+  "id": "Register_JSObject1.Button1onClick",
   "deleted": false,
-  "gitSyncId": "6625abc73569c3250f570df0_6626ca4549e24b3c00108b32"
+  "gitSyncId": "6625abc73569c3250f570df0_6627078da207e62f2a894751"
 }

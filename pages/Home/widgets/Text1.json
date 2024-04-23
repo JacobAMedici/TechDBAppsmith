@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Hello User {{appsmith.store.userID}} who has {{appsmith.store.userPermissions}}",
+    "text": "{{appsmith.store.userID}}\n{{appsmith.store.userPermissions}}",
     "key": "2staly8dhx",
     "isDeprecated": false,
     "rightColumn": 38,

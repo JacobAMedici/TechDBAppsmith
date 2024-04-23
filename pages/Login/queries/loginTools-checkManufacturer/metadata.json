@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "login",
-    "fullyQualifiedName": "loginTools.login",
+    "name": "checkManufacturer",
+    "fullyQualifiedName": "loginTools.checkManufacturer",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,21 +13,14 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Register",
-    "collectionId": "Register_loginTools",
+    "pageId": "Login",
+    "collectionId": "Login_loginTools",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": [
-        {
-          "name": "username"
-        },
-        {
-          "name": "permissions"
-        }
-      ]
+      "jsArguments": []
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -42,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-22T20:21:00Z"
+    "createdAt": "2024-04-23T02:12:07Z"
   },
-  "id": "Register_loginTools.login",
+  "id": "Login_loginTools.checkManufacturer",
   "deleted": false,
-  "gitSyncId": "6625abc73569c3250f570df0_6626c6ac49e24b3c00108b2a"
+  "gitSyncId": "6625abc73569c3250f570df0_662718f7a207e62f2a89475e"
 }

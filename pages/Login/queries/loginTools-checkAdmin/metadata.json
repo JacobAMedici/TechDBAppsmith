@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "checkAuth",
-    "fullyQualifiedName": "loginTools.checkAuth",
+    "name": "checkAdmin",
+    "fullyQualifiedName": "loginTools.checkAdmin",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-22T19:29:13Z"
+    "createdAt": "2024-04-23T02:10:55Z"
   },
-  "id": "Login_loginTools.checkAuth",
+  "id": "Login_loginTools.checkAdmin",
   "deleted": false,
-  "gitSyncId": "6625abc73569c3250f570df0_6626ba89f5697e51dad2c276"
+  "gitSyncId": "6625abc73569c3250f570df0_662718afa207e62f2a89475a"
 }

@@ -1,6 +1,6 @@
 {
   "unpublishedCollection": {
-    "name": "loginTools",
+    "name": "JSObject1",
     "pageId": "Register",
     "pluginId": "js-plugin",
     "pluginType": "JS",
@@ -9,7 +9,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "id": "Register_loginTools",
+  "id": "Register_JSObject1",
   "deleted": false,
-  "gitSyncId": "6625abc73569c3250f570df0_6626c67449e24b3c00108b27"
+  "gitSyncId": "6625abc73569c3250f570df0_6627078da207e62f2a894753"
 }
