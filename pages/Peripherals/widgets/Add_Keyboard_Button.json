@@ -1,7 +1,7 @@
 {
     "resetFormOnClick": false,
     "needsErrorInfo": false,
-    "boxShadow": "none",
+    "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
     "mobileBottomRow": 65,
     "widgetName": "Add_Keyboard_Button",
     "onClick": "{{loginTools.checkManufacturer('Keyboard');}}",
@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 50,
+    "leftColumn": 52,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}

@@ -53,7 +53,7 @@
     "thumbnailSVG": "/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
     "widgetId": "ipm1qic2t3",
     "minWidth": 450,
-    "label": "Firstname",
+    "label": "First Name",
     "parentId": "0",
     "labelAlignment": "left",
     "renderMode": "CANVAS",

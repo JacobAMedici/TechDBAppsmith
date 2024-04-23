@@ -1,7 +1,7 @@
 {
     "resetFormOnClick": false,
     "needsErrorInfo": false,
-    "boxShadow": "none",
+    "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
     "mobileBottomRow": 65,
     "widgetName": "registerRedirect",
     "onClick": "{{navigateTo('Register', {}, 'SAME_WINDOW');}}",
@@ -49,6 +49,6 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 20,
     "originalBottomRow": 62,
-    "buttonVariant": "PRIMARY",
+    "buttonVariant": "SECONDARY",
     "placement": "CENTER"
 }

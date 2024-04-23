@@ -1,7 +1,7 @@
 {
     "resetFormOnClick": false,
     "needsErrorInfo": false,
-    "boxShadow": "none",
+    "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
     "mobileBottomRow": 46,
     "widgetName": "Submit_Add_Mouse",
     "onClick": "{{Add_Mouse.run();\nnavigateTo('Peripherals', {}, 'SAME_WINDOW');}}",
